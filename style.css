@@ -1,0 +1,237 @@
+html {
+
+    scroll-behavior: smooth;
+
+}
+
+
+
+img {
+    max-width:100%;
+}
+
+
+.contenedor {
+    width: 100%;
+    height: 90vh;
+}
+* {
+
+    box-sizing: border-box;
+}
+
+
+
+.transparente{
+    background-color: rgba(52, 73, 94, 0.2);
+}
+
+.letraAzul {
+    color: #34495E;
+}
+
+.fondoCeleste {
+    background-color: #1976D2;
+}
+.fondoGris {
+    background-color: #BDBDBD;
+}
+.fondoCelesteClaro{
+    background-color: #BBDEFB;
+}
+.fondoHeader {
+    background-color: rgba(52, 73, 94, 0.9);
+}
+
+.fondoOscuro {
+    background-color:  #34495E;
+}
+
+.colorLetraBlanco {
+    color:  whitesmoke;
+}
+.header {
+
+    background: #34495E;
+    color: whitesmoke;
+    width: 100%;
+    z-index: 4;
+    
+ 
+}
+
+.footer {
+
+    color: #34495E;
+    background:  whitesmoke;
+    font-size: 90%;
+   
+}
+
+
+.header a {
+
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 20px;
+    
+}
+
+
+
+.icon{
+
+    height: 40px;
+    width: 40px;
+
+}
+
+
+.wave {
+
+    position: relative; 
+    background: linear-gradient(180deg, rgba(52,73,94,1) 12%, rgba(255,255,255,1) 90%);
+    
+}
+
+.wave2 {
+
+    position: relative; 
+    background: linear-gradient(180deg, rgba(52,73,94,1) 30%, rgba(255,255,255,1) 300%);
+    
+}
+
+
+.wave:before {  
+    
+    content: ' ';   
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    width: 100%;    
+    height: 250px; 
+    background: url(waves.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.wave1 {
+
+    
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(52,73,94,1) 100%);
+    
+}
+
+
+
+.colorLetraContacto {
+
+    color: linear-gradient(180deg,  rgba(52,73,94,1) 100%, rgba(255,255,255,1) 12%);
+}
+
+
+.wrapper {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+         }
+
+
+
+.borderDiv {
+
+    border-color: rgb(188, 188, 189);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2%;
+    transition: 0.3s;
+
+}
+
+
+.borderDiv:hover {
+
+    border-color: #34495E;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2%;
+
+}
+
+
+.navItemsContacto:hover {
+
+    width: 115%;    
+    transition: 0.3s;
+}
+.navItemsTransparente:hover {
+
+  
+    font-size: 110%;
+    color: white;
+    transition: 0.3s;
+
+}
+
+.icono{
+                        
+            width: 150px;
+        }         
+
+.icono:hover{
+
+    width: 150px;   
+    border:0px solid #34495E;
+    border-radius: 50%!important;
+    padding: 4px 4px 4px 4px;
+
+}
+
+.item {
+
+    height: 150px;
+    width: 150px;
+   
+}
+
+
+.infoContacto {
+    
+
+    line-height: 0;
+    color: gray;
+    padding: 20px;
+
+}
+
+#seccionSeguros, #seccionContacto, #seccionNosotros, #seccionInicio  {
+
+    height: 100%;
+}
+
+
+
+
+
+.lineaContacto {
+    position: relative;
+    width: 120px;
+    height: 0.5px;
+    background-color:white;
+    top: 1em;
+
+}
+
+.lineaContactoColor {
+    position: relative;
+    width: 120px;
+    height: 0.5px;
+    background-color:#34495E;
+    top: 1.5em;
+
+}
+
+
+
+
