@@ -1,13 +1,30 @@
 html {
+
     scroll-behavior: smooth;
+
+}
+
+body {
+
+    overflow-x: hidden;
+}
+
+
+img {
+    max-width:100%;
 }
 
 
 .contenedor {
     width: 100%;
     height: 90vh;
-   
 }
+* {
+
+    box-sizing: border-box;
+}
+
+
 
 .transparente{
     background-color: rgba(52, 73, 94, 0.2);
@@ -37,20 +54,14 @@ html {
 .colorLetraBlanco {
     color:  whitesmoke;
 }
-.headerContainer {
+.header {
 
     background: #34495E;
     color: whitesmoke;
     width: 100%;
     z-index: 4;
     
-    
  
-}
-
-.headerContainer > nav ul, #sociales{
-    display: flex;
-    align-items: center;
 }
 
 .footer {
@@ -62,11 +73,11 @@ html {
 }
 
 
-.headerContainer a {
+.header a {
 
     color: whitesmoke;
     text-decoration: none;
-    /* padding: 20px; */
+    padding: 20px;
     
 }
 
@@ -100,11 +111,10 @@ html {
     content: ' ';   
     position: absolute; 
     bottom: 0; 
-    left: 0;
-    max-width: 100%; 
+    left: 0; 
     width: 100%;    
     height: 250px; 
-    background: url(wave-3.svg);
+    background: url(waves.png);
     background-size: cover;
     background-repeat: no-repeat;
     
@@ -153,22 +163,12 @@ html {
 
 }
 
-.navItemsContacto:hover{
-    transition: 3s;
-}
-.navItemsTransparente:hover{
-    transition: 3s;
-}
-
-.
-
 
 .navItemsContacto:hover {
 
     width: 115%;    
     transition: 0.3s;
 }
-
 .navItemsTransparente:hover {
 
   
@@ -179,8 +179,9 @@ html {
 }
 
 .icono{
-    width: 150px;
-    }
+                        
+            width: 150px;
+        }         
 
 .icono:hover{
 
@@ -214,7 +215,8 @@ html {
 }
 
 
-
+.colorTitulo
+{ color: whitesmoke;}
 
 
 .lineaContacto {
@@ -235,21 +237,24 @@ html {
 
 }
 
-#wave-img{
-       height: 90vh;
-       width: 100%;
-}
 
 
-@media only screen and (min-width: 950px) {
-    #mostrar {
-        display: block !important;
-        border: red solid 3px;
+
+
+@media screen and (max-width: 769px) {
+    
+        .marginBototmResponsive {
+            margin-bottom: 100px;
+        }
+
     }
-}
+    
+@media  (orientation: landscape) {
 
-@media only screen and (max-width: 400px) {
-	/* #mostrar {
-		display:block !important;
-	} */
+    .colorLetraBlanco1 {
+
+        color: #34495E;
+    }
+
+
 }
