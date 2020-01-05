@@ -74,33 +74,29 @@ html {
 
 
 .wave {
-
     position: relative; 
     background: linear-gradient(180deg, rgba(52,73,94,1) 12%, rgba(255,255,255,1) 90%);
-    
 }
 
 .wave2 {
-
     position: relative; 
-    background: linear-gradient(180deg, rgba(52,73,94,1) 30%, rgba(255,255,255,1) 300%);
-    
+    background: linear-gradient(180deg, rgba(52,73,94,1) 30%, rgba(255,255,255,1) 300%)
 }
 
-
-.wave:before {  
+.wave{
     
+}
+.wave:before {  
     content: ' ';   
     position: absolute; 
     bottom: 0; 
     left: 0;
     max-width: 100%; 
     width: 100%;    
-    height: 250px; 
+    height: 50vh; 
     background: url(wave-3.svg);
     background-size: cover;
     background-repeat: no-repeat;
-    
 }
 
 .wave1 {
@@ -203,7 +199,7 @@ html {
 
 #seccionSeguros, #seccionContacto, #seccionNosotros, #seccionInicio  {
 
-    height: 100%;
+    height: 100vh;
 }
 
 
@@ -226,9 +222,4 @@ html {
     background-color:#34495E;
     top: 1.5em;
 
-}
-
-#wave-img{
-       height: 90vh;
-       width: 100%;
 }
