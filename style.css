@@ -2,6 +2,15 @@ html {
     /* scroll-behavior: smooth; */
 }
 
+.mainContainer{
+    width: 100%;
+}
+
+.mainContainer>section.wave{
+    width: 100%;
+    height: 100vh;
+}
+.mainContainer>.s
 .transparente{
     background-color: rgba(52, 73, 94, 0.2);
 }
@@ -197,13 +206,6 @@ html {
 
 }
 
-#seccionSeguros, #seccionContacto, #seccionNosotros, #seccionInicio  {
-
-    height: 100vh;
-}
-
-
-
 
 
 .lineaContacto {
@@ -223,3 +225,23 @@ html {
     top: 1.5em;
 
 }
+
+.lineaContactoColor{
+    position: relative;
+    width: 120px;
+    height: 0.5px;
+    background-color:#34495E;
+    top: .5em;
+}
+
+
+
+
+
+@media screen and (max-width: 769px) {
+    
+        .marginBototmResponsive {
+            margin-bottom: 100px;
+        }
+
+    }
